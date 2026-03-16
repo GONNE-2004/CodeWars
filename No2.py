@@ -1,8 +1,8 @@
 # from statistics import mean
 
 def get_grade(s1, s2, s3):
-#     score = mean([s1, s2, s3]) #using mean is good for readablility and scaling later
-    score = (s1 + s2 + s3) / 3 #1st put it in paranthess to follow the BODMAS rule
+#     score = mean([s1, s2, s3]) #using mean is good for readability and scaling later
+    score = (s1 + s2 + s3) / 3 #1st put it in parentheses to follow the BODMAS rule
      #always do computation before condition
     if 90 <= score <= 100:
         return "A"
@@ -15,4 +15,4 @@ def get_grade(s1, s2, s3):
     else:
         return "F"
 
-print(get_grade(70, 50, 80))    
+print(get_grade(70, 50, 80))
