@@ -14,6 +14,7 @@ def solution(roman : str) -> int:
     total = 0
     # Iterate through the string character by character
     for i in range(len(roman)):
+        # Get the integer value of the current Roman symbol
         current_value = roman_map[roman[i]]
 
         # Look ahead: if the next symbol is larger, subtract the current
