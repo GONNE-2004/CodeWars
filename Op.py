@@ -12,3 +12,12 @@ def basic_op(operator, value1, value2):
 # This is the next day after the above and i did the below
 # def make_upper_case(s):
 #     return s.upper()
+
+# def openOrSenior(data):
+#     result = []
+#     for x in data:
+#         if x[0] >= 55 and x[1] > 7:
+#             result.append("Senior")
+#         else:
+#             result.append("Open")
+#     return result
